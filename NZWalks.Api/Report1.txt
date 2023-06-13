@@ -1,0 +1,6 @@
+SQLQuery3.sql - DESKTOP-1FEATHS\SQLEXPRESS.nzwalksauthdb (DESKTOP-1FEATHS\Dell (53))
+
+- Querying transaction count (Success)
+
+
+

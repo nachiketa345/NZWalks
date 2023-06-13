@@ -1,0 +1,95 @@
+﻿@NZWalks.Api_HostAddress = https://localhost:7005
+
+GET {{NZWalks.Api_HostAddress}}/api/regions
+
+###
+
+POST {{NZWalks.Api_HostAddress}}/api/regions
+Content-Type: application/json
+
+{
+  //RegionRequestDto
+}
+
+###
+
+{
+"code":"KIL",
+"name":"Kinsland",
+"regionImageUrl":"some-img-kins.url"
+}
+
+POST {{NZWalks.Api_HostAddress}}/api/regions
+Content-Type: application/json
+
+{
+  "code": "KIN",
+  "name": "Kinsland",
+  "regionImageUrl": "some-img-kins.url"
+
+}
+
+###
+
+DELETE {{NZWalks.Api_HostAddress}}/api/regions/{id:Guid}
+
+###
+
+   c2f047ea-6f85-4563-d84c-08db47be7e8e"
+
+GET {{NZWalks.Api_HostAddress}}/api/regions
+
+###
+
+GET {{NZWalks.Api_HostAddress}}/api/regions
+
+###
+
+PUT {{NZWalks.Api_HostAddress}}/api/regions/{id:Guid}
+Content-Type: application/json
+
+{
+   "id":"c2f047ea-6f85-4563-d84c-08db47be7e8e",
+  "code": "NOR",
+  "name": "Northland",
+  "regionImageUrl": "some-img-nor.jpeg"
+}
+
+###
+
+POST {{NZWalks.Api_HostAddress}}/api/regions
+Content-Type: application/json
+
+{
+  "code": "NOR",
+  "name": "Northland",
+  "regionImageUrl": "some-img-nor.jpeg"
+}
+
+###
+
+GET {{NZWalks.Api_HostAddress}}/api/regions/{id:Guid}
+
+###
+
+GET {{NZWalks.Api_HostAddress}}/api/regions/08da5e96-458b-4023-7a48-08db582b805f
+
+###
+
+
+PUT {{NZWalks.Api_HostAddress}}/api/regions/08da5e96-458b-4023-7a48-08db582b805f
+Content-Type: application/json
+
+{
+  "name":"Kremlin"
+}
+
+###
+
+DELETE {{NZWalks.Api_HostAddress}}/api/regions/08da5e96-458b-4023-7a48-08db582b805f
+
+###
+
+GET {{NZWalks.Api_HostAddress}}/api/regions
+
+###
